@@ -1,4 +1,5 @@
 import './App.css';
+import Greetings from './components/Greetings';
 import IdCard from './components/IdCard';
 
 function App() {
@@ -12,7 +13,14 @@ function App() {
       height={178}
       birth={("1992-05-11")}
      />
+     <Greetings lang="de">Ludwig</Greetings>
+     <Greetings lang="fr">Alexandre</Greetings>
+     <Greetings lang="es">Mari Carmen</Greetings>
+     <Greetings lang="en">Skylar</Greetings>
+  
     </div>
+
+
   );
 }
 
