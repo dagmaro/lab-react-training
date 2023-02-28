@@ -5,7 +5,8 @@ function IdCard(props) {
     borderStyle: "solid",
     display: "flex",
     flexDirection: "row",
-    margin: "10px"
+    margin: "10px",
+    borderColor: "yellow"
   }
 
   const cardContainer = {

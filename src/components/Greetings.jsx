@@ -5,7 +5,8 @@ function Greetings(props) {
         borderStyle: "solid",
         display: "flex",
         flexDirection: "row",
-        margin: "10px"
+        margin: "10px",
+        borderColor: "red"
       }
     const greetings = {
         de: `Hallo ${children}`,
